@@ -7,10 +7,10 @@ int main(void)
         return 0;
     }
     if(n<0){
-        printf("error\n");
+        printf("Error\n");
     }else if (n==0){
         printf("No\n");
-    }else{
+    }else{ 
         int flag = 0;
 
         if(n%3==0){
