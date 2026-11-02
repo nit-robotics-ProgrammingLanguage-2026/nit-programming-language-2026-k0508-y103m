@@ -10,7 +10,7 @@ int main(void)
         printf("error\n");
     }else if (n==0){
         printf("No\n");
-    }else{
+    }else{ 
         int flag = 0;
 
         if(n%3==0){
